@@ -10,4 +10,12 @@ When implementing a new feature or fixing a bug, please create a new pull reques
 
 ## First setup
 
-**[TODO 05/01/2018 @vanessa-cooper]:** _It's been a while since anyone ran a fresh copy of this repo. I think it's worth documenting the steps needed to install and run the repo on a new machine?_
+### Local development
+
+We use `docker` to develop locally,  run the bellow command from the project root directory to load Anythink's backend and frontend.
+
+```bash
+docker-compose up
+```
+
+Also, you can use `docker exec` to run commands on a running container.
